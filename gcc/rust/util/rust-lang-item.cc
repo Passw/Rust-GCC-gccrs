@@ -101,6 +101,9 @@ const BiMap<std::string, LangItem::Kind> Rust::LangItem::lang_items = {{
 
   {"eq", Kind::EQ},
   {"partial_ord", Kind::PARTIAL_ORD},
+
+  {"discriminant_type", Kind::DISCIMINANT_TYPE},
+  {"discriminant_kind", Kind::DISCIMINANT_KIND},
 }};
 
 tl::optional<LangItem::Kind>

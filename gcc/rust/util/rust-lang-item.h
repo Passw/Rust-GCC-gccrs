@@ -128,6 +128,9 @@ public:
 
     INTOITER_INTOITER,
     ITERATOR_NEXT,
+
+    DISCIMINANT_TYPE,
+    DISCIMINANT_KIND,
   };
 
   static const BiMap<std::string, Kind> lang_items;
